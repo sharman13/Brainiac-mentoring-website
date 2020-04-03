@@ -94,7 +94,7 @@ color: white;
 font-size: 15px;
 font-family: 'Montserrat', sans-serif;
 padding: 5px;
-text-align: left;
+text-align: center;
 }
   .button.is-outlined:focus, .button.is-outlined:hover {
     border-color: #ff7359;
