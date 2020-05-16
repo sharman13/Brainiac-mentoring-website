@@ -4,46 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Brainiac mentoring</title>
-  <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>homefresh</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="logo">
-                <h1>Brainiac Mentoring</h1>
+                <img src="images/logo png homefresh.png" alt="logo">
             </div>
             <div class="nav">
                 <ul>
-                    <li onclick="register()">Register Now!</li>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>Courses</li></a>
+                    <a href="#"><li>Images</li></a>
+                    <a href="#"><li>How to register</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                        <!-- <a href="#"><li>Customizable cakes</li></a>
+                        <a href="#"><li>Contact us</li></a> -->
                 </ul>
             </div>
             <div class="a">
-                    <i class="material-icons" onclick="Menu()" style="font-size: 40px">
+                    <i class="material-icons" onclick='Menu()' style="font-size: 40px">
                     menu
                     </i>
                     </div>
-             <div id="nav-mobo" class="animated fadeIn">
+             <div id="nav-mobo" class="animated slideInUp">
                 <ul>
-                    <li onclick="register()">Register Now</li>
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About Us</li></a>
+                        <a href="#"><li>Courses</li></a>
+                        <a href="#"><li>Images</li></a>
+                        <a href="#"><li>How to register</li></a>
+                        <a href="#"><li>Contact Us</li></a>
+                        <!-- <a href="#"><li>Customizable cakes</li></a>
+                        <a href="#"><li>Contact us</li></a> -->
                 </ul>
             </div>
         </div>
-        <div class="background">
-            <center><img src="banner background.png" alt="" width="70%" onclick = "register()"><br><br>
-            <center><img src="banner maths.png" alt="" width="70%" onclick = "register()"><br>
-            <button class="button" onclick="register()">Register Now!</button></center>
+        <div class="slider">
+            <img src="images/slider/slider_3.png" alt="" id="img1" class="animated fadeIn">
+            <img src="http://wowslider.com/sliders/demo-18/data1/images/shanghai.jpg" alt="" id="img2" class="animated fadeIn">
+            <button onclick="next()" class="next"><i class="material-icons">
+                navigate_next
+                </i></button>
+            <button onclick="Prev()" class="previous"><i class="material-icons">
+                chevron_left
+                </i></button>
+        </div><br>
+        <center>
+            <div class="heading">
+                <h1>Popular courses</h1>
+            </div><br>
+        </center>
+        <center><table class="courses">
+            <tr>
+                <td>
+                    <center><div class="card 3">
+                        <h2>Shake Class</h2>
+                        <img src="images/image-card1.jpg" alt=""><br><br>
+                        <button>Know More</button>
+                    </div></center>
+                </td>
+                <td>
+                    <center><div class="card 3">
+                        <h2>Shake Class</h2>
+                        <img src="images/image-card1.jpg" alt=""><br><br>
+                        <button>Know More</button>
+                    </div></center>
+                </td>
+                <td>
+                    <center><div class="card 3">
+                        <h2>Shake Class</h2>
+                        <img src="images/image-card1.jpg" alt=""><br><br>
+                        <button>Know More</button>
+                    </div></center>
+                </td>
+            </tr>
+        </table></center>
+        <center>
+            <button class="seemore">
+                See More
+            </button>
+        </center>
+        <center><table class="coursesmobo">
+            <tr>
+                <td>
+                    <center><div class="card 3">
+                        <h2>Shake Class</h2>
+                        <img src="images/image-card1.jpg" alt=""><br><br>
+                        <button>Know More</button>
+                    </div></center>
+                </td>
+            </tr>
+                <tr><td>
+                    <center><div class="card 3">
+                        <h2>Shake Class</h2>
+                        <img src="images/image-card1.jpg" alt=""><br><br>
+                        <button>Know More</button>
+                    </div></center>
+                </td></tr>
+                <tr><td>
+                    <center><div class="card 3">
+                        <h2>Shake Class</h2>
+                        <img src="images/image-card1.jpg" alt=""><br><br>
+                        <button>Know More</button>
+                    </div></center>
+                </td></tr>
+                <tr>
+                    <td><center><button class="seemoremobo">
+                        See More
+                    </button></center></td>
+                </tr>
+        </table></center><br>
+        <center>
+            <div class="heading">
+                <h1>Images</h1>
+            </div><br>
+            <img src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" width="100%">
+        </center><br><br>
+        <center>
+            <div class="heading">
+                <h1>How To register?</h1>
+            </div><br>
+            <h3 style="font-family: 'Montserrat', sans-serif; padding-left: 10px; padding-right: 10px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quidem labore quisquam distinctio aspernatur sapiente doloribus nulla minus eligendi ipsa odio, corporis placeat hic? Accusamus nulla, eius repellendus ipsa qui dolorem illo molestias. Iusto debitis perspiciatis cupiditate error totam repellat quod itaque facere temporibus deserunt, mollitia, neque odio earum minus dicta. Corporis, maiores quia voluptatem quaerat fugiat non! Doloribus suscipit, est a accusantium nulla ea vel enim fugiat mollitia, velit blanditiis! Dicta rem fugit quibusdam maxime harum vitae, soluta aliquam tempore consequuntur odio corrupti. Blanditiis soluta iure veritatis, tenetur nulla porro quibusdam ipsum dolorum dignissimos aperiam asperiores rem sunt aspernatur?</h3>
+        </center><br>
+        <center>
+            <div class="heading">
+                <h1>About Us</h1>
+            </div><br>
+            <h3 style="font-family: 'Montserrat', sans-serif;padding-left: 10px; padding-right: 10px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quidem labore quisquam distinctio aspernatur sapiente doloribus nulla minus eligendi ipsa odio, corporis placeat hic? Accusamus nulla, eius repellendus ipsa qui dolorem illo molestias. Iusto debitis perspiciatis cupiditate error totam repellat quod itaque facere temporibus deserunt, mollitia, neque odio earum minus dicta. Corporis, maiores quia voluptatem quaerat fugiat non! Doloribus suscipit, est a accusantium nulla ea vel enim fugiat mollitia, velit blanditiis! Dicta rem fugit quibusdam maxime harum vitae, soluta aliquam tempore consequuntur odio corrupti. Blanditiis soluta iure veritatis, tenetur nulla porro quibusdam ipsum dolorum dignissimos aperiam asperiores rem sunt aspernatur?</h3>
+        </center><br>
+        <center>
+            <div class="heading">
+                <h1>Contact Us</h1>
+            </div><br>
+           <div class="whatsapp" >
+<img src="https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" width="100%">
+           </div>
+        </center>
+        <div class="footer">
+            <h3>
+                Website Created By Sharman Maheshwari
+            </h3>
         </div>
-        <center> <div class="elfsight-app-042bfb82-1645-4d27-89b5-bf8544b56678"></div></center>
+        <a href="https://api.whatsapp.com/send?phone=9911796657&text=" target="navigate_next"><img src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png" alt="" class="whatsappicon" width="60"></a>
     </div>
-    <a href = "https://api.whatsapp.com/send?phone=919717990326" class="float"><i class="fa fa-whatsapp my-float"></i></a>
-    <div class = "footer">
-	<h3>Page Created by Sharman</h3>
-</div>
 </body>
+<script src="script.js"></script>
 </html>
