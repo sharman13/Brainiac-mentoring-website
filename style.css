@@ -248,19 +248,19 @@ body{
     }
     .next{
         position: absolute;
-        top: 40%;
+        top: 30%;
     }
     .previous{
         position: absolute;
-        top: 40%;
+        top: 30%;
     }
 
     #img1{
-        height: 300px;
+        height: 200px;
         width: 100%;
     }
     #img2{
-        height: 300px;
+        height: 200px;
         width: 100%;
     }
 }
