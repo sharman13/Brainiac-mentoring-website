@@ -130,7 +130,7 @@ body{
 #nav-mobo{
     display: none;
 }
-.heading h1{
+.heading{
     font-family: 'Montserrat', sans-serif;
     color: #D63031;
 }
@@ -237,9 +237,6 @@ body{
     #nav-mobo ul a{
         color: black;
         text-decoration: none;
-    }
-    .images{
-        display: none;
     }
     .moboimages{
         display: block;
