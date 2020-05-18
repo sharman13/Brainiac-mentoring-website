@@ -158,6 +158,9 @@ body{
     box-shadow: 2px 2px 5px rgb(155, 155, 155);
     margin-bottom: 30px;
 }
+.card h3{
+    margin-top: 10px;
+}
 .card h2{
     margin-top: 0px;
 }
