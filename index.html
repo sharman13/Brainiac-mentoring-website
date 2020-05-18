@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="containe">
@@ -21,14 +22,12 @@
             </div>
             <div class="nav">
                 <ul>
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>About Us</li></a>
-                    <a href="#"><li>Courses</li></a>
-                    <a href="#"><li>Images</li></a>
-                    <a href="#"><li>How to register</li></a>
-                    <a href="#"><li>Contact Us</li></a>
-                        <!-- <a href="#"><li>Customizable cakes</li></a>
-                        <a href="#"><li>Contact us</li></a> -->
+                    <a href="index.html"><li onclick="Home()">Home</li></a>
+                   <li onclick="AboutUs()">About Us</li>
+                   <a href="courses.html"><li>Courses</li></a>
+                    <a href="images.html" target="navigate_next"><li>Images</li></a>
+                    <li onclick="howregister()">How to register</li>
+                    <li onclick="contact()">Contact Us</li>
                 </ul>
             </div>
             <div class="a">
@@ -38,14 +37,12 @@
                     </div>
              <div id="nav-mobo" class="animated slideInUp">
                 <ul>
-                        <a href="#"><li>Home</li></a>
-                        <a href="#"><li>About Us</li></a>
-                        <a href="#"><li>Courses</li></a>
-                        <a href="#"><li>Images</li></a>
-                        <a href="#"><li>How to register</li></a>
-                        <a href="#"><li>Contact Us</li></a>
-                        <!-- <a href="#"><li>Customizable cakes</li></a>
-                        <a href="#"><li>Contact us</li></a> -->
+                    <a href="index.html"><li onclick="Home()">Home</li></a>
+                   <li onclick="AboutUs()">About Us</li>
+                   <a href="courses.html"><li>Courses</li></a>
+                    <a href="images.html" target="navigate_next"><li>Images</li></a>
+                    <li onclick="howregister()">How to register</li>
+                    <li onclick="contact()">Contact Us</li>
                 </ul>
             </div>
         </div>
@@ -66,12 +63,12 @@
         </center>
         <center>
             <div class="cards"><div class="row">
-                <div class="col-sm-4 card 1" style="background-color:lavender;">
-                    <h2>Cake Class</h2>
+                <a href="basiccakeclass.html" style="color: black;" target="navigate_next"><div class="col-sm-4 card 1" style="background-color:lavender;">
+                    <h2>Basic Cake Class</h2>
                     <img src="images/image-card1.jpg" alt="">
                     <h4 style="margin-bottom: 0px; margin-top: 5px;">Rs. 149</h4>
                     <button class="knowmore">Know more</button>
-                </div>
+                </div></a>
                 <div class="col-sm-4 card 2" style="background-color:lavenderblush;">           <h2>Cake Class</h2>
                     <img src="images/image-card1.jpg" alt="">
                     <h4 style="margin-bottom: 0px; margin-top: 5px;">Rs. 149</h4>
@@ -124,5 +121,5 @@
         <a href="https://api.whatsapp.com/send?phone=9911796657&text=" target="navigate_next"><img src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png" alt="" class="whatsappicon" width="60"></a>
     </div>
 </body>
-<script src="script.js"></script>
+
 </html>

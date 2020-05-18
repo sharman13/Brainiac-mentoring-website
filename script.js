@@ -46,3 +46,13 @@ function Prev(){
         }
 }
 
+function AboutUs() {
+    window.scrollBy(0, 1900);
+}
+
+function howregister() {
+    window.scrollBy(0, 1500);
+}
+function contact() {
+    window.scrollBy(0, 4000);
+}
