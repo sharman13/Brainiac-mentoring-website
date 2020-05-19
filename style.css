@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@ body{
     background: rgb(251,243,243);
     background-size: cover;
     background-repeat: no-repeat;
-    
+    font-family: 'Jost', sans-serif;
 }
 .images{
     display: block;
