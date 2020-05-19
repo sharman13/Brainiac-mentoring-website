@@ -7,7 +7,7 @@ function Menu(){
         document.getElementById('nav-mobo').style.animationName = "wipeIn";
         document.getElementById('nav-mobo').style.animationDuration = "0.5s";
         document.getElementById('nav-mobo').style.display = "block";
-        
+        document.getElementById('nav-mobo').style.zIndex = "100";
         // document.getElementsByClassName('slider')[0].style.display = "none";
         window.click = 1;
     }
@@ -15,6 +15,8 @@ function Menu(){
         document.getElementById('nav-mobo').style.animationName = "wipeOut";
         document.getElementById('nav-mobo').style.animationDuration = "0.5s";
         // document.getElementById('nav-mobo').style.display = "none";
+        setInterval({}, 2000);
+        document.getElementById('nav-mobo').style.zIndex = "-1000";
         window.click = 0;
     }
 }
