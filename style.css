@@ -134,6 +134,13 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #D63031;
 }
+.product_des {
+    padding-left: 15px;
+    padding-right: 10px;
+    list-style-type: square;
+    float: left;
+    text-align: start;
+}
 .footer{
     width: 100%;
     color: white;
